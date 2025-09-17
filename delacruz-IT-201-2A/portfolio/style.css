@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #04183575;
+  color: rgb(83, 228, 204);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+header .gwapings {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  background-color: rgba(38, 200, 212, 0.233);
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header nav ul li a:hover {
+  color: #81ee1b;
+}
+
+
+section {
+  padding: 100px;  
+  margin: 0;           
+  min-height: auto;   
+}
+
+
+.nav1 {
+  background: url('download.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  height: 100vh;
+  padding-top: 50vh;
+}
+
+
+.color {
+  color: rgb(255, 253, 253);
+  background: linear-gradient(to right, rgb(0, 0, 0), #2037ff21);
+  font-size: 100px;
+  border-radius: 20px;
+  font-family: 'Fira Code', 'Source Code Pro', 'Ubuntu Mono', monospace;
+}
+
+.nav2 {
+  background: linear-gradient(to bottom, #1b1b33, white);
+  color: #f5f5f5;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.nav3 {
+  background: #ddd;
+  color: #222;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav3 ul {
+  list-style: none;   
+  margin: 0;          
+  padding: 0;         
+  display: flex;
+  text-align: center;
+  justify-content: center;  
+}
+
+.nav4 {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
