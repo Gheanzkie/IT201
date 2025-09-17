@@ -1,0 +1,98 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #04183575;
+  color: rgb(83, 228, 204);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ff9800;
+}
+
+
+section {
+  padding: 100px;  
+  margin: 0;           
+  min-height: auto;   
+}
+
+
+.nav1 {
+  background: url('download.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.nav2 {
+  background: #ffe1e1;
+  color: #333;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.nav3 {
+  background: #ddd;
+  color: #222;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav3 ul {
+  list-style: none;   
+  margin: 0;          
+  padding: 0;         
+  display: flex;
+  text-align: center;
+  justify-content: center;  
+}
+
+.nav4 {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
